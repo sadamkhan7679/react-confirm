@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/docs/src/styles/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/app/docs/components/button/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/app/docs/components/confirm-dialog/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/app/docs/components/dialog/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/app/docs/hooks/use-confirm/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/app/docs/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/app/docs/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/code-examples/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/feature-list/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/mdx-components.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/mobile-nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/props-table/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/props-table/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/props-table/props-row.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/props-table/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/section/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/docs/toc.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/examples/async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/examples/basic.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/examples/custom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/examples/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/features/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/footer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/hero/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/navigation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/navigation/logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/navigation/nav-links.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/shared/code-playground/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/theme/theme-provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/web/components/modules/theme/theme-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-confirm/package-exports.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/react-confirm/typedoc.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/next-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/docs/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/acme-core/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/acme-core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/acme-core/src/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/acme-core/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/acme-core/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/acme-core/tsup.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/acme-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/acme-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2r0GdYzsSplR5JXad7tfxEX9kYA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Web_Development/open-source/test-app/apps/web/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.acme-core &gt; build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.docs &gt; dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.react-confirm &gt; build:css.executor&quot;: &quot;Run&quot;,
+    &quot;npm.react-confirm &gt; docs.executor&quot;: &quot;Run&quot;,
+    &quot;npm.react-confirm &gt; docs:typedoc.executor&quot;: &quot;Run&quot;,
+    &quot;npm.web &gt; dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Web_Development\\open-source\\test-app\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Web_Development\\open-source\\test-app\\apps\\docs\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web_Development\open-source\test-app\apps\web\app" />
+      <recent name="D:\Web_Development\open-source\test-app\apps\web\components\modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web_Development\open-source\test-app\apps\docs\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.react-confirm &gt; docs:typedoc">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/react-confirm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="react-confirm &gt; build:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/react-confirm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:css" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="react-confirm &gt; docs" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/react-confirm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="react-confirm &gt; docs:typedoc" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/packages/react-confirm/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:typedoc" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="web &gt; dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/apps/web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.react-confirm &gt; docs:typedoc" />
+        <item itemvalue="npm.react-confirm &gt; docs" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.web &gt; dev" />
+        <item itemvalue="npm.react-confirm &gt; build:css" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="" />
+      <created>1735688668142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735688668142</updated>
+      <workItem from="1735688670038" duration="277000" />
+      <workItem from="1735690836767" duration="6848000" />
+      <workItem from="1735860941442" duration="2524000" />
+      <workItem from="1735863546214" duration="10517000" />
+      <workItem from="1735878136701" duration="1648000" />
+      <workItem from="1735920076149" duration="2272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,68 @@
+{
+  "name": "@razmisoft/react-confirm",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build:package": "tsup",
+    "build:css": "tailwindcss -i ./lib/styles/index.css -o ./dist/styles.css --minify",
+    "build:og": "tsup lib/index.tsx --format esm,cjs --dts --external react --clean --minify",
+    "build": "pnpm build:og && pnpm build:css",
+    "dev": "tsup lib/index.ts --format esm,cjs --watch --dts --external react",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "docs:typedoc": "typedoc --options ./typedoc.config.mjs",
+    "docs": "api-documenter markdown -i temp -o docs",
+    "build-docs": "api-extractor run --local && npm run docs",
+    "json-parser": "typedoc-json-parser",
+    "generate-docs": "ts-node scripts/generate-docs.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "@acme/eslint-config": "workspace:*",
+    "@acme/tsconfig": "workspace:*",
+    "@microsoft/api-documenter": "^7.26.3",
+    "@microsoft/api-extractor": "^7.48.1",
+    "@microsoft/tsdoc": "^0.15.1",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.14.8",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.17",
+    "tsup": "^8.0.2",
+    "typedoc": "^0.27.6",
+    "typedoc-plugin-markdown": "^4.4.1",
+    "typescript": "5.5.4",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "react": "^19.0.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

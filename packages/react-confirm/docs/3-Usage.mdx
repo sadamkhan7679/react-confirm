@@ -1,0 +1,51 @@
+# Get Started
+
+Once you have installed the package, you can use the following steps to display a confirmation dialog.
+
+### Step 1: Import CSS Styles to root component
+
+```jsx
+import "@razmisoft/react-confirm/styles.css";
+```
+
+### Step 2: Import the `ConfirmProvider` component and wrap your application with it
+
+This is a context provider that does the heavy lifting of displaying the confirmation dialog. It will provide the following:
+
+- Add a `ConfirmDialog` component to the DOM that displays the confirmation dialog when needed.
+- Add global context state and methods to show and hide the confirmation dialog.
+
+```jsx
+import { ConfirmProvider } from "@razmisoft/react-confirm";
+
+function App() {
+  return <ConfirmProvider>{/* Your application code here */}</ConfirmProvider>;
+}
+```
+
+### Step 3: Use the `useConfirm` hook to display a confirmation dialog
+
+The `useConfirm` hook is a custom hook that provides a function to display a confirmation dialog. You can call this function with the following options:
+
+```jsx
+import { useConfirm } from "@razmisoft/react-confirm";
+
+function MyComponent() {
+  const confirm = useConfirm();
+
+  const handleClick = async () => {
+    const result = await confirm({
+      title: "Delete Item",
+      description: "Are you sure you want to delete this item?",
+      confirmationText: "Delete",
+      cancellationText: "Cancel",
+    });
+
+    if (result) {
+      // Delete the item
+    }
+  };
+
+  return <button onClick={handleClick}>Delete</button>;
+}
+```

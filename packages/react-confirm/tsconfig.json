@@ -1,0 +1,13 @@
+{
+  "extends": "@acme/tsconfig/react-library.json",
+  "include": ["src/**/*", "lib/**/*"],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "declarationDir": "./dist",
+    "emitDeclarationOnly": false
+  },
+  "exclude": ["dist", "build", "node_modules", "docs"]
+}

@@ -1,0 +1,5 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RealShadowNova/typedoc-json-parser/main/assets/typedoc-json-parser.schema.json",
+  "json": "docs/documentation.json",
+  "migrate": "parsed-docs/migration.json"
+}

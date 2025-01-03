@@ -1,0 +1,26 @@
+import { ThemeToggle } from "./theme-toggle";
+import { Logo } from "./logo";
+import { NavLinks } from "./nav-links";
+
+export function Navigation() {
+  return (
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-14 items-center justify-between">
+        <Logo />
+        <NavLinks />
+        <div className="flex items-center gap-4">
+          <ThemeToggle />
+          <a
+            href="https://github.com/razmisoft/react-confirm"
+            target="_blank"
+            rel="noreferrer"
+            className="hidden sm:block"
+          >
+            <div className="sr-only">GitHub</div>
+            <GitHubIcon className="h-5 w-5" />
+          </a>
+        </div>
+      </div>
+    </header>
+  );
+}

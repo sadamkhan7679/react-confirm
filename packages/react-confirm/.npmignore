@@ -1,0 +1,9 @@
+node_modules/
+src/
+temp/
+docs/
+tests/
+.github/
+*.test.*
+tsconfig.json
+api-extractor.json
