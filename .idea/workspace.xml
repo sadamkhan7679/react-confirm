@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="lock file update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Update .gitignore">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,7 @@
       <recent name="D:\Web_Development\open-source\test-app\apps\docs\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build (1)">
+  <component name="RunManager" selected="npm.changeset">
     <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -145,9 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.changeset" />
         <item itemvalue="npm.build (1)" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.changeset" />
         <item itemvalue="npm.react-confirm &gt; docs:typedoc" />
         <item itemvalue="npm.react-confirm &gt; docs" />
       </list>
@@ -178,7 +178,7 @@
       <workItem from="1735878136701" duration="1648000" />
       <workItem from="1735920076149" duration="2272000" />
       <workItem from="1736567166891" duration="1255000" />
-      <workItem from="1736637740402" duration="504000" />
+      <workItem from="1736637740402" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="Added Meta Info">
       <option name="closed" value="true" />
@@ -212,7 +212,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736568350112</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update .gitignore">
+      <option name="closed" value="true" />
+      <created>1736638281188</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736638281188</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update .gitignore">
+      <option name="closed" value="true" />
+      <created>1736638286078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736638286078</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update .gitignore">
+      <option name="closed" value="true" />
+      <created>1736638367948</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736638367948</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +246,7 @@
     <MESSAGE value="Added Meta Info" />
     <MESSAGE value=".gitignore update" />
     <MESSAGE value="lock file update" />
-    <option name="LAST_COMMIT_MESSAGE" value="lock file update" />
+    <MESSAGE value="Update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
   </component>
 </project>
