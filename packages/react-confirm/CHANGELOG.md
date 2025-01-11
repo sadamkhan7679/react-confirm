@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+
+### Minor Changes
+
+- aea2334: Added Meta Data
+
 ## 1.1.0
 
 ### Minor Changes
