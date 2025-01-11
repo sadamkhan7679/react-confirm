@@ -20,5 +20,36 @@
   "engines": {
     "node": ">=18"
   },
-  "name": "with-changesets"
+  "name": "with-changesets",
+  "keywords": [
+    "react",
+    "confirmation",
+    "dialog",
+    "modal",
+    "popup",
+    "typescript",
+    "tailwindcss",
+    "radix-ui",
+    "accessible",
+    "customizable",
+    "confirmation-dialog",
+    "react-component",
+    "react-hooks",
+    "react-modal",
+    "react-dialog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadamkhan7679/react-confirm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sadamkhan7679/react-confirm/issues"
+  },
+  "homepage": "https://github.com/sadamkhan7679/react-confirm#readme",
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
 }
