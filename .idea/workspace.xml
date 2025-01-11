@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Added Meta Info">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="lock file update">
+      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -21,6 +23,13 @@
     "assignee": "sadamkhan7679"
   }
 }]]></component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/sadamkhan7679/react-confirm.git",
@@ -167,7 +176,7 @@
       <workItem from="1735863546214" duration="10517000" />
       <workItem from="1735878136701" duration="1648000" />
       <workItem from="1735920076149" duration="2272000" />
-      <workItem from="1736567166891" duration="355000" />
+      <workItem from="1736567166891" duration="1121000" />
     </task>
     <task id="LOCAL-00001" summary="Added Meta Info">
       <option name="closed" value="true" />
@@ -177,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736567508782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".gitignore update">
+      <option name="closed" value="true" />
+      <created>1736567548545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736567548545</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lock file update">
+      <option name="closed" value="true" />
+      <created>1736568161022</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736568161022</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Meta Info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Meta Info" />
+    <MESSAGE value=".gitignore update" />
+    <MESSAGE value="lock file update" />
+    <option name="LAST_COMMIT_MESSAGE" value="lock file update" />
   </component>
 </project>
