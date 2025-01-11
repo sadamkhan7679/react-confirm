@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="lock file update">
-      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +17,12 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sadamkhan7679"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sadamkhan7679&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
       <list>
@@ -30,12 +30,12 @@
       </list>
     </option>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sadamkhan7679/react-confirm.git",
-    "accountId": "25bf6bea-b884-4937-9add-db94d413db78"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sadamkhan7679/react-confirm.git&quot;,
+    &quot;accountId&quot;: &quot;25bf6bea-b884-4937-9add-db94d413db78&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -60,6 +60,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "pnpm",
     "npm.acme-core > build.executor": "Run",
+    "npm.build (1).executor": "Run",
     "npm.build.executor": "Run",
     "npm.changeset.executor": "Run",
     "npm.docs > dev.executor": "Run",
@@ -91,7 +92,17 @@
       <recent name="D:\Web_Development\open-source\test-app\apps\docs\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.changeset">
+  <component name="RunManager" selected="npm.build (1)">
+    <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/packages/react-confirm/package.json" />
       <command value="run" />
@@ -132,23 +143,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="web &gt; dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/apps/web/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build (1)" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.changeset" />
         <item itemvalue="npm.react-confirm &gt; docs:typedoc" />
         <item itemvalue="npm.react-confirm &gt; docs" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.web &gt; dev" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +177,8 @@
       <workItem from="1735863546214" duration="10517000" />
       <workItem from="1735878136701" duration="1648000" />
       <workItem from="1735920076149" duration="2272000" />
-      <workItem from="1736567166891" duration="1121000" />
+      <workItem from="1736567166891" duration="1255000" />
+      <workItem from="1736637740402" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="Added Meta Info">
       <option name="closed" value="true" />
@@ -202,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736568161022</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lock file update">
+      <option name="closed" value="true" />
+      <created>1736568350112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736568350112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
