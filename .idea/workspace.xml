@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-confirm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-confirm/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" />
+    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Added Meta Info">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,7 @@
     "nodejs_package_manager_path": "pnpm",
     "npm.acme-core > build.executor": "Run",
     "npm.build.executor": "Run",
+    "npm.changeset.executor": "Run",
     "npm.docs > dev.executor": "Run",
     "npm.react-confirm > build:css.executor": "Run",
     "npm.react-confirm > docs.executor": "Run",
@@ -86,7 +82,7 @@
       <recent name="D:\Web_Development\open-source\test-app\apps\docs\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.react-confirm &gt; docs:typedoc">
+  <component name="RunManager" selected="npm.changeset">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/packages/react-confirm/package.json" />
       <command value="run" />
@@ -97,11 +93,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="react-confirm &gt; build:css" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/packages/react-confirm/package.json" />
+    <configuration name="changeset" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build:css" />
+        <script value="changeset" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -139,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.changeset" />
         <item itemvalue="npm.react-confirm &gt; docs:typedoc" />
         <item itemvalue="npm.react-confirm &gt; docs" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.web &gt; dev" />
-        <item itemvalue="npm.react-confirm &gt; build:css" />
       </list>
     </recent_temporary>
   </component>
@@ -171,11 +167,24 @@
       <workItem from="1735863546214" duration="10517000" />
       <workItem from="1735878136701" duration="1648000" />
       <workItem from="1735920076149" duration="2272000" />
-      <workItem from="1736567166891" duration="196000" />
+      <workItem from="1736567166891" duration="355000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Meta Info">
+      <option name="closed" value="true" />
+      <created>1736567508782</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736567508782</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Meta Info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Meta Info" />
   </component>
 </project>
