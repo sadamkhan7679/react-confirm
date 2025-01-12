@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Update .gitignore">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
+    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Update workflow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-confirm/src/components/ConfirmDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-confirm/src/components/ConfirmDialog.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,32 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Web_Development/open-source/test-app/apps/web/app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "npm.acme-core > build.executor": "Run",
-    "npm.build (1).executor": "Run",
-    "npm.build.executor": "Run",
-    "npm.changeset.executor": "Run",
-    "npm.docs > dev.executor": "Run",
-    "npm.react-confirm > build:css.executor": "Run",
-    "npm.react-confirm > docs.executor": "Run",
-    "npm.react-confirm > docs:typedoc.executor": "Run",
-    "npm.web > dev.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "D:\\Web_Development\\open-source\\test-app\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.externalTools",
-    "ts.external.directory.path": "D:\\Web_Development\\open-source\\react-confirm-changesets\\packages\\react-confirm\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Web_Development/open-source/test-app/apps/web/app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.acme-core &gt; build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.changeset.executor&quot;: &quot;Run&quot;,
+    &quot;npm.docs &gt; dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.react-confirm &gt; build:css.executor&quot;: &quot;Run&quot;,
+    &quot;npm.react-confirm &gt; docs.executor&quot;: &quot;Run&quot;,
+    &quot;npm.react-confirm &gt; docs:typedoc.executor&quot;: &quot;Run&quot;,
+    &quot;npm.web &gt; dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Web_Development\\open-source\\test-app\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Web_Development\\open-source\\react-confirm-changesets\\packages\\react-confirm\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -178,7 +178,8 @@
       <workItem from="1735878136701" duration="1648000" />
       <workItem from="1735920076149" duration="2272000" />
       <workItem from="1736567166891" duration="1255000" />
-      <workItem from="1736637740402" duration="824000" />
+      <workItem from="1736637740402" duration="943000" />
+      <workItem from="1736719929173" duration="97000" />
     </task>
     <task id="LOCAL-00001" summary="Added Meta Info">
       <option name="closed" value="true" />
@@ -236,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736638367948</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update workflow">
+      <option name="closed" value="true" />
+      <created>1736638594953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736638594953</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +256,7 @@
     <MESSAGE value=".gitignore update" />
     <MESSAGE value="lock file update" />
     <MESSAGE value="Update .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
+    <MESSAGE value="Update workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workflow" />
   </component>
 </project>
