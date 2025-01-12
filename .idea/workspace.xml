@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Update workflow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-confirm/src/components/ConfirmDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-confirm/src/components/ConfirmDialog.tsx" afterDir="false" />
+    <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Added Default Bg Color for Background">
+      <change beforePath="$PROJECT_DIR$/apps/docs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/apps/docs/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <recent name="D:\Web_Development\open-source\test-app\apps\docs\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.changeset">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -145,9 +144,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.changeset" />
         <item itemvalue="npm.build (1)" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.react-confirm &gt; docs:typedoc" />
         <item itemvalue="npm.react-confirm &gt; docs" />
       </list>
@@ -179,7 +178,7 @@
       <workItem from="1735920076149" duration="2272000" />
       <workItem from="1736567166891" duration="1255000" />
       <workItem from="1736637740402" duration="943000" />
-      <workItem from="1736719929173" duration="97000" />
+      <workItem from="1736719929173" duration="385000" />
     </task>
     <task id="LOCAL-00001" summary="Added Meta Info">
       <option name="closed" value="true" />
@@ -245,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736638594953</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Default Bg Color for Background">
+      <option name="closed" value="true" />
+      <created>1736720205910</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736720205910</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +264,7 @@
     <MESSAGE value="lock file update" />
     <MESSAGE value="Update .gitignore" />
     <MESSAGE value="Update workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workflow" />
+    <MESSAGE value="Added Default Bg Color for Background" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Default Bg Color for Background" />
   </component>
 </project>
