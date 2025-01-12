@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2b67731e-dc9b-4925-a47d-f9812dd0a901" name="Changes" comment="Added Default Bg Color for Background">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/react-confirm/lib/components/ConfirmDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-confirm/lib/components/ConfirmDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-confirm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-confirm/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/react-confirm/src/components/Dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/react-confirm/src/components/Dialog.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.changeset" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.changeset" />
         <item itemvalue="npm.build (1)" />
         <item itemvalue="npm.react-confirm &gt; docs:typedoc" />
         <item itemvalue="npm.react-confirm &gt; docs" />
@@ -179,7 +180,8 @@
       <workItem from="1735920076149" duration="2272000" />
       <workItem from="1736567166891" duration="1255000" />
       <workItem from="1736637740402" duration="943000" />
-      <workItem from="1736719929173" duration="649000" />
+      <workItem from="1736719929173" duration="875000" />
+      <workItem from="1736720964750" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="Added Meta Info">
       <option name="closed" value="true" />
@@ -261,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1736720392929</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added Default Bg Color for Background">
+      <option name="closed" value="true" />
+      <created>1736720609926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736720609926</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Default Bg Color for Background">
+      <option name="closed" value="true" />
+      <created>1736720662552</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736720662552</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
